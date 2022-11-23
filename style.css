@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    /* background: linear-gradient(to bottom, rgb(50, 43, 126) 20%, rgb(95, 90, 141)); */
+    /* background-color: rgb(50, 43, 126); */
+    background-image: linear-gradient(to top, #2F6196, #447cb9, #3D80C7);
+    font-family: MyFont;
+}
+
+@font-face{
+    font-family: MyFont;
+    src: url(./fonts/Lato/Lato-Bold.ttf);
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.cabecalho {
+    position: relative;
+    /* background-color: pink; */
+    padding-bottom: 10px;
+    color: white;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+
+
+.logo-emp {
+    margin-top: 15px;
+    margin-left: 10px;
+    /* background-color: pink; */
+    display: inline-block;
+    width: 200px;
+}
+
+.logo-emp>h1 {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    transform: translate(20px, 20px);
+}
+
+.logo {
+    height: 60px;
+    position: relative;
+    float: left;
+}
+
+/* BOTÕES DE NAVEGAÇÃO PÁGINAS*/
+.menu {
+    display: inline-block;
+    transform: translate(220px, 15px);
+    position: relative;
+    margin-right: 80px;
+}
+
+.nav {
+    background-color: #FFFFFFBB;
+    padding: 5px;
+    border: 1px;
+    border-radius: 250px;
+    text-decoration: none;
+    color: rgb(50, 43, 126);
+}
+
+.nav:hover {
+    padding: 15px;
+    font-size: 17px;
+}
+
+
+.redes-sociais {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    /* top: 15px;
+    right: 15px; */
+    /* background-color: pink; */
+    /* display: inline-block; */
+    position: relative;
+    /* float: right; */
+    /* transform: translateY(10px); */
+
+}
+
+.redes-media {
+    padding-left: 8px;
+    text-decoration: none;
+    max-width: 100px;
+    margin: auto;
+
+}
+
+
+
+.redes>img {
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    padding-left: 8px;
+
+    /* transform: translate(-50px); */
+
+}
+
+
+
+.apresenta {
+    padding: 20px;
+    background-image: url('./images/close-deal.jpg');
+    background-size: cover;
+    overflow: auto;
+}
+
+.texto-apresenta {
+    font-size: 20px;
+
+}
+
+.apresentação {
+    max-width: 200px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.texto-apresenta {
+    color: rgb(50, 43, 126);
+}
+
+
+
+h2 {
+    color: #FFFFFFBB;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+
+.tiposServicos {
+    text-align: center;
+    position: relative;
+
+}
+
+
+.servico1,
+.servico2,
+.servico3 {
+    max-width: 200px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    margin-right: 40px;
+    display: inline-block;
+    font-size: 24px;
+    border: 1px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.servico2 {
+    transform: translateY(20px);
+}
+
+.servico3 {
+    transform: translateY(10px);
+}
+
+.clientes-atendidos {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.cliente1,
+.cliente2,
+.cliente3,
+.cliente4 {
+    max-width: 150px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    display: inline-block;
+    font-size: 24px;
+    border: 1px;
+    border-radius: 60px;
+    border-top-left-radius: 10px;
+    position: relative;
+    margin-left: 20px;
+}
+
+
+.cliente1 {
+    top: 15px;
+}
+
+.cliente2 {
+    top: 40px;
+
+
+}
+
+
+
+.cliente4 {
+    top: 10px;
+
+}
+
+.cliente1>p {
+    margin-top: 20px;
+    font: 18px italic bold;
+}
+
+.cliente2>p {
+    margin-top: 20px;
+    font: 18px italic bold;
+}
+
+
+.cliente3>p {
+    margin-top: 20px;
+    font: 18px italic bold;
+}
+
+.cliente4>p {
+    margin-top: 20px;
+    font: 18px italic bold;
+}
+
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font: bold 15px italic;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.endereço-mapa {
+    overflow: auto;
+    margin-bottom: 20px;
+
+}
+
+iframe {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 40px;
+    float: left;
+
+}
+
+.texto-endereço {
+    color: white;
+    font-size: 30px;
+    float: right;
+    margin-top: 200px;
+}
+
+footer {
+    height: 100px;
+     background-color: #478F80;
+      /* rgb(152, 137, 137);  */
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .cabecalho {
+        height: auto;
+    }
+
+    .cabecalho {
+        text-align: center;
+    }
+
+    .menu {
+        transform: translate(40px, 20px);
+    }
+
+    .redes-sociais {
+        margin-top: 30px;
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+
+    .redes-sociais>p {
+        /* background-color: blueviolet; */
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    .redes-media {
+        margin-right: 25px;
+        float: right;
+    }
+
+    .apresentação {
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .tiposServicos {
+        height: auto;
+    }
+
+    .servico1,
+    .servico2,
+    .servico3 {
+        transform: translateX(20px);
+        margin-top: 20px;
+    }
+
+   
+
+    .cliente3 {
+        margin-top: 60px;
+    }
+
+    .cliente4 {
+        margin-top: 10px;
+    }
+
+    .endereço {
+        text-align: center;
+    }
+
+    .endereço-mapa>h2 {
+        margin-top: 60px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+        margin-left: 50px;
+        position: relative;
+    }
+
+    .texto-endereço {
+        font-size: 25px;
+        float: none;
+        text-align: left;
+        margin-top: 370px;
+        margin-left: 50px;
+
+    }
+
+
+
+
+}
+
+
+/* BOTÕES DE NAVEGAÇÃO PÁGINAS TERMINA AQUI*/
