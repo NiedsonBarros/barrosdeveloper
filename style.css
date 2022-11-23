@@ -99,7 +99,10 @@ body {
     text-decoration: none;
     max-width: 100px;
     margin: auto;
+}
 
+.redes{
+    text-decoration: none;
 }
 
 
@@ -300,18 +303,18 @@ footer {
         margin-top: 30px;
         float: left;
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 
     .redes-sociais>p {
         /* background-color: blueviolet; */
         display: inline-block;
         margin-top: 15px;
-        margin-left: 25px;
+        margin-left: auto;
     }
 
     .redes-media {
-        margin-right: 25px;
+        margin-right: 20px;
         float: right;
     }
 
@@ -372,10 +375,9 @@ footer {
 
     }
 
-
-
-
 }
+
+
 
 
 /* BOTÕES DE NAVEGAÇÃO PÁGINAS TERMINA AQUI*/
